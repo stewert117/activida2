@@ -1,0 +1,36 @@
+.hero {
+  min-height: 100vh; /* ocupa toda la pantalla */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(180deg, #1e1e2f, #3a0ca3, #121212);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 900px;
+}
+
+.hero h1 {
+  font-size: 3rem; /* bien grande */
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #f8f8f8;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 700px; /* controla el tamaño máximo */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  color: #ddd;
+  margin-top: 10px;
+}

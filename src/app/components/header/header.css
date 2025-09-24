@@ -1,0 +1,25 @@
+nav {
+  background: linear-gradient(90deg, #1e1e2f, #3a0ca3); /* degradado azul oscuro a morado */
+  padding: 15px; /* espacio alrededor del contenido */
+  position: fixed; /* fija el header en la parte superior */
+  display: flex; /* usa flexbox para alinear los elementos */
+  justify-content: center; /* centra los elementos horizontalmente */
+  gap: 30px;
+}
+
+nav a {
+  color: #ffffff; 
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4cc9f0; /* celeste */
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #4cc9f0;
+}
